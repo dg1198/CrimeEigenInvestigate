@@ -24,7 +24,7 @@ A facial recognition application that uses Principal Component Analysis (PCA) an
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd crimeEigenInvestigate
+   cd CrimeEigenInvestigate
    ```
 3. **Install dependencies**:
    - Ensure Python 3 is installed.
@@ -72,7 +72,7 @@ If you want to process images and generate eigenfaces separately:
 
 ## Project Structure
 ```
-crimeEigenInvestigate/
+CrimeEigenInvestigate/
 ├── app.py                # Main application file
 ├── eigen.py              # PCA and eigenface generation script
 ├── images/               # Folder for images used by eigen.py
