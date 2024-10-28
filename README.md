@@ -20,7 +20,7 @@ A facial recognition application that uses Principal Component Analysis (PCA) an
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/crimeEigenInvestigate.git
+   git clone https://github.com/dg1198/CrimeEigenInvestigate.git
    ```
 2. **Navigate to the project directory**:
    ```bash
