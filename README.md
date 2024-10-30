@@ -26,13 +26,7 @@ A facial recognition application that uses Principal Component Analysis (PCA) an
    ```bash
    cd CrimeEigenInvestigate
    ```
-3. **Install dependencies**:
-   - Ensure Python 3 is installed.
-   - Install required Python packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-4. **Set up MySQL Database**:
+3. **Set up MySQL Database**:
    - Create a MySQL database named `ppllist`.
    - Update `app.config` in `app.py` with your MySQL credentials.
 
@@ -48,9 +42,9 @@ A facial recognition application that uses Principal Component Analysis (PCA) an
 ### Using `eigen.py` Separately
 If you want to process images and generate eigenfaces separately:
 1. Place all images in the `images` folder.
-2. Run `eigen.py` directly:
+2. Run `EigenFace.py` directly:
    ```bash
-   python eigen.py
+   python EigenFace.py
    ```
 3. A window will open, allowing you to adjust PCA weights to generate new faces interactively.
 
@@ -74,11 +68,10 @@ If you want to process images and generate eigenfaces separately:
 ```
 CrimeEigenInvestigate/
 ├── app.py                # Main application file
-├── eigen.py              # PCA and eigenface generation script
+├── EigenFace.py              # PCA and eigenface generation script
 ├── images/               # Folder for images used by eigen.py
 ├── static/               # Static assets (CSS, JavaScript)
 ├── templates/            # HTML templates
-├── requirements.txt      # Dependency file
 └── README.md             # Project documentation
 ```
 
