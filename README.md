@@ -39,7 +39,7 @@ A facial recognition application that uses Principal Component Analysis (PCA) an
 1. Start the application and open a web browser at `http://localhost:5000` to access the app.
 2. Use different routes to navigate between login, admin, and face matching interfaces.
 
-### Using `eigen.py` Separately
+### Using `EigenFace.py` Separately
 If you want to process images and generate eigenfaces separately:
 1. Place all images in the `images` folder.
 2. Run `EigenFace.py` directly:
